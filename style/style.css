@@ -2,11 +2,11 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #fffaf0;
+    background-color: #faf9f8;
 }
 
 header, footer {
-    background-color: #e7d8c6;
+    background-color: #f7eee3;
     text-align: center;
     padding: 20px;
 }
@@ -41,20 +41,21 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px;
+    border: solid black;
 }
 
 .identite {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 150px;
+    margin: 0 auto;
 }
-
-.avatar {
-    width: 65px;
-    height: 65px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid white;
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 10px;
 }
-
 
