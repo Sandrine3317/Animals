@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fffaf0;
+}
+
+header, footer {
+    background-color: #e7d8c6;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    margin: 10px;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+img {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.identite {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.avatar {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+
